@@ -218,8 +218,6 @@ npm run dev
 
 Open your browser and go to `http://localhost:3000` to see your website.
 
-<img width="100%" src="./images/nextjs-local-preview.png" alt="Next.js Local Preview" />
-
 ### Design Your Website Layout
 
 Now tell Claude Code what you want your website to look like. Here are some sample prompts you can use:
@@ -300,8 +298,6 @@ Stripe lets you accept payments on your website. You'll set up a Stripe account 
    - **Publishable key**: starts with `pk_test_...`
    - **Secret key**: starts with `sk_test_...` (click to reveal)
 
-<img width="100%" src="./images/stripe-api-keys.png" alt="Stripe API Keys" />
-
 6. Keep this page open — you'll need both keys
 
 ### Create Products in Stripe
@@ -364,8 +360,6 @@ STRIPE_SECRET_KEY=sk_test_your_actual_key_here
 4. Complete the purchase — you should be redirected to the success page
 5. Check your Stripe Dashboard under **Payments** to see the test payment
 
-<img width="100%" src="./images/stripe-test-payment.png" alt="Stripe Test Payment" />
-
 ### Go Live with Real Payments
 
 When you're ready for real payments:
@@ -400,8 +394,6 @@ You need a server to host your website so anyone can access it on the internet.
 4. Wait about 60 seconds for it to spin up
 5. Copy the **IP address** shown (e.g., `164.90.xxx.xxx`) — you'll need this
 
-<img width="100%" src="./images/digitalocean-create-droplet.png" alt="DigitalOcean Create Droplet" />
-
 ---
 
 ## 8. Install & Configure Dokploy
@@ -433,8 +425,6 @@ Dokploy is a free, open-source tool that makes deploying your website as easy as
    - Click **Register**
 4. You're now in the Dokploy dashboard
 
-<img width="100%" src="./images/dokploy-setup-screen.png" alt="Dokploy Setup Screen" />
-
 ### Connect Dokploy to GitHub
 
 This lets Dokploy pull your code from GitHub automatically.
@@ -446,8 +436,6 @@ This lets Dokploy pull your code from GitHub automatically.
    - Choose **Only select repositories** and pick your website repo
    - Click **Install & Authorize**
 5. You'll be redirected back to Dokploy — the connection is now active
-
-<img width="100%" src="./images/dokploy-github-connection.png" alt="Dokploy GitHub Connection" />
 
 ---
 
@@ -534,8 +522,6 @@ If you have a domain name:
    - Build your Next.js website
    - Start it up
 3. Once the build is complete, your website is live!
-
-<img width="100%" src="./images/dokploy-deploy-logs.png" alt="Dokploy Deploy Logs" />
 
 ### Auto-Deploy on Push
 

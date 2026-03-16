@@ -218,8 +218,6 @@ npm run dev
 
 Mở trình duyệt và truy cập `http://localhost:3000` để xem trang web của bạn.
 
-<img width="100%" src="./images/nextjs-local-preview.png" alt="Xem trước Next.js cục bộ" />
-
 ### Thiết kế giao diện trang web
 
 Bây giờ hãy cho Claude Code biết bạn muốn trang web trông như thế nào. Dưới đây là một số prompt mẫu bạn có thể sử dụng:
@@ -300,8 +298,6 @@ Stripe cho phép bạn nhận thanh toán trên trang web. Bạn sẽ tạo tài
    - **Publishable key**: bắt đầu bằng `pk_test_...`
    - **Secret key**: bắt đầu bằng `sk_test_...` (nhấn để hiển thị)
 
-<img width="100%" src="./images/stripe-api-keys.png" alt="API Keys của Stripe" />
-
 6. Giữ trang này mở — bạn sẽ cần cả hai key
 
 ### Tạo sản phẩm trong Stripe
@@ -364,8 +360,6 @@ STRIPE_SECRET_KEY=sk_test_your_actual_key_here
 4. Hoàn tất giao dịch — bạn sẽ được chuyển hướng đến trang thành công
 5. Kiểm tra Stripe Dashboard trong **Payments** để xem giao dịch test
 
-<img width="100%" src="./images/stripe-test-payment.png" alt="Thanh toán test Stripe" />
-
 ### Chuyển sang thanh toán thực
 
 Khi bạn sẵn sàng nhận thanh toán thực:
@@ -400,8 +394,6 @@ Bạn cần một máy chủ để lưu trữ trang web để bất kỳ ai cũn
 4. Chờ khoảng 60 giây để khởi động
 5. Sao chép **địa chỉ IP** được hiển thị (ví dụ: `164.90.xxx.xxx`) — bạn sẽ cần nó
 
-<img width="100%" src="./images/digitalocean-create-droplet.png" alt="Tạo Droplet trên DigitalOcean" />
-
 ---
 
 ## 8. Cài đặt & cấu hình Dokploy
@@ -433,8 +425,6 @@ Dokploy là công cụ miễn phí, mã nguồn mở giúp triển khai trang we
    - Nhấn **Register**
 4. Bạn đang ở trong Dokploy dashboard
 
-<img width="100%" src="./images/dokploy-setup-screen.png" alt="Màn hình thiết lập Dokploy" />
-
 ### Kết nối Dokploy với GitHub
 
 Điều này cho phép Dokploy tự động kéo code từ GitHub của bạn.
@@ -446,8 +436,6 @@ Dokploy là công cụ miễn phí, mã nguồn mở giúp triển khai trang we
    - Chọn **Only select repositories** và chọn kho lưu trữ trang web của bạn
    - Nhấn **Install & Authorize**
 5. Bạn sẽ được chuyển hướng trở lại Dokploy — kết nối đã hoạt động
-
-<img width="100%" src="./images/dokploy-github-connection.png" alt="Kết nối Dokploy với GitHub" />
 
 ---
 
@@ -534,8 +522,6 @@ Nếu bạn có tên miền:
    - Build trang web Next.js của bạn
    - Khởi động nó
 3. Sau khi build hoàn tất, trang web của bạn đã trực tuyến!
-
-<img width="100%" src="./images/dokploy-deploy-logs.png" alt="Nhật ký triển khai Dokploy" />
 
 ### Tự động triển khai khi đẩy code
 

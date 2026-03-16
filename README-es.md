@@ -218,8 +218,6 @@ npm run dev
 
 Abre tu navegador y ve a `http://localhost:3000` para ver tu sitio web.
 
-<img width="100%" src="./images/nextjs-local-preview.png" alt="Vista Previa Local de Next.js" />
-
 ### Diseñar el Layout de tu Sitio Web
 
 Ahora dile a Claude Code cómo quieres que se vea tu sitio web. Aquí hay algunos prompts de ejemplo que puedes usar:
@@ -300,8 +298,6 @@ Stripe te permite aceptar pagos en tu sitio web. Crearás una cuenta de Stripe y
    - **Publishable key**: comienza con `pk_test_...`
    - **Secret key**: comienza con `sk_test_...` (haz clic para revelarla)
 
-<img width="100%" src="./images/stripe-api-keys.png" alt="Claves API de Stripe" />
-
 6. Mantén esta página abierta — necesitarás ambas claves
 
 ### Crear Productos en Stripe
@@ -364,8 +360,6 @@ STRIPE_SECRET_KEY=sk_test_your_actual_key_here
 4. Completa la compra — deberías ser redirigido a la página de éxito
 5. Revisa tu Panel de Stripe en **Payments** para ver el pago de prueba
 
-<img width="100%" src="./images/stripe-test-payment.png" alt="Pago de Prueba en Stripe" />
-
 ### Activar Pagos Reales
 
 Cuando estés listo para recibir pagos reales:
@@ -400,8 +394,6 @@ Necesitas un servidor para alojar tu sitio web para que cualquiera pueda acceder
 4. Espera unos 60 segundos para que se cree
 5. Copia la **dirección IP** que se muestra (p. ej., `164.90.xxx.xxx`) — la necesitarás
 
-<img width="100%" src="./images/digitalocean-create-droplet.png" alt="Crear Droplet en DigitalOcean" />
-
 ---
 
 ## 8. Instalar y Configurar Dokploy
@@ -433,8 +425,6 @@ Dokploy es una herramienta gratuita y de código abierto que hace que desplegar 
    - Haz clic en **Register**
 4. Ahora estás en el panel de Dokploy
 
-<img width="100%" src="./images/dokploy-setup-screen.png" alt="Pantalla de Configuración de Dokploy" />
-
 ### Conectar Dokploy a GitHub
 
 Esto permite que Dokploy obtenga tu código de GitHub automáticamente.
@@ -446,8 +436,6 @@ Esto permite que Dokploy obtenga tu código de GitHub automáticamente.
    - Elige **Only select repositories** y selecciona el repositorio de tu sitio web
    - Haz clic en **Install & Authorize**
 5. Serás redirigido de vuelta a Dokploy — la conexión ya está activa
-
-<img width="100%" src="./images/dokploy-github-connection.png" alt="Conexión de Dokploy con GitHub" />
 
 ---
 
@@ -534,8 +522,6 @@ Si tienes un nombre de dominio:
    - Construirá tu sitio web Next.js
    - Lo pondrá en marcha
 3. Una vez que la construcción esté completa, ¡tu sitio web está en vivo!
-
-<img width="100%" src="./images/dokploy-deploy-logs.png" alt="Registros de Despliegue en Dokploy" />
 
 ### Despliegue Automático al Hacer Push
 
