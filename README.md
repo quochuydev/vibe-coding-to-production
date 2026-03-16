@@ -1,5 +1,7 @@
 # Vibe Coding to Production
 
+🇺🇸 [English](README.md) | 🇨🇳 [中文](README-zh.md) | 🇻🇳 [Tiếng Việt](README-vi.md) | 🇪🇸 [Español](README-es.md) | 🇩🇪 [Deutsch](README-de.md)
+
 A complete step-by-step guide for **non-developers** to build a website from scratch and deploy it to production using AI-assisted coding (vibe coding) with Claude Code.
 
 By the end of this guide, you will have:
@@ -53,7 +55,7 @@ A repository (or "repo") is like a project folder on GitHub.
    - Check **Add a README file**
 4. Click **Create repository**
 
-<img width="50%" src="./images/github-create-repo.png" alt="GitHub Create Repository" />
+<img width="100%" src="./images/github-create-repo.png" alt="GitHub Create Repository" />
 
 5. You now have a repository! Copy the URL from your browser — it looks like `https://github.com/your-username/my-website`
 
@@ -181,7 +183,7 @@ Claude Code requires an Anthropic API key or a Claude subscription.
    - If using a **Claude subscription**: it will open a browser window to log in
 4. Follow the on-screen instructions to complete authentication
 
-<img width="50%" src="./images/claude-code-first-launch.png" alt="Claude Code First Launch" />
+<img width="100%" src="./images/claude-code-first-launch.png" alt="Claude Code First Launch" />
 
 You're now ready to vibe code! Claude Code will read your project files and help you build your website.
 
@@ -216,7 +218,7 @@ npm run dev
 
 Open your browser and go to `http://localhost:3000` to see your website.
 
-<img width="50%" src="./images/nextjs-local-preview.png" alt="Next.js Local Preview" />
+<img width="100%" src="./images/nextjs-local-preview.png" alt="Next.js Local Preview" />
 
 ### Design Your Website Layout
 
@@ -298,7 +300,7 @@ Stripe lets you accept payments on your website. You'll set up a Stripe account 
    - **Publishable key**: starts with `pk_test_...`
    - **Secret key**: starts with `sk_test_...` (click to reveal)
 
-<img width="50%" src="./images/stripe-api-keys.png" alt="Stripe API Keys" />
+<img width="100%" src="./images/stripe-api-keys.png" alt="Stripe API Keys" />
 
 6. Keep this page open — you'll need both keys
 
@@ -362,7 +364,7 @@ STRIPE_SECRET_KEY=sk_test_your_actual_key_here
 4. Complete the purchase — you should be redirected to the success page
 5. Check your Stripe Dashboard under **Payments** to see the test payment
 
-<img width="50%" src="./images/stripe-test-payment.png" alt="Stripe Test Payment" />
+<img width="100%" src="./images/stripe-test-payment.png" alt="Stripe Test Payment" />
 
 ### Go Live with Real Payments
 
@@ -398,7 +400,7 @@ You need a server to host your website so anyone can access it on the internet.
 4. Wait about 60 seconds for it to spin up
 5. Copy the **IP address** shown (e.g., `164.90.xxx.xxx`) — you'll need this
 
-<img width="50%" src="./images/digitalocean-create-droplet.png" alt="DigitalOcean Create Droplet" />
+<img width="100%" src="./images/digitalocean-create-droplet.png" alt="DigitalOcean Create Droplet" />
 
 ---
 
@@ -431,7 +433,7 @@ Dokploy is a free, open-source tool that makes deploying your website as easy as
    - Click **Register**
 4. You're now in the Dokploy dashboard
 
-<img width="50%" src="./images/dokploy-setup-screen.png" alt="Dokploy Setup Screen" />
+<img width="100%" src="./images/dokploy-setup-screen.png" alt="Dokploy Setup Screen" />
 
 ### Connect Dokploy to GitHub
 
@@ -445,7 +447,7 @@ This lets Dokploy pull your code from GitHub automatically.
    - Click **Install & Authorize**
 5. You'll be redirected back to Dokploy — the connection is now active
 
-<img width="50%" src="./images/dokploy-github-connection.png" alt="Dokploy GitHub Connection" />
+<img width="100%" src="./images/dokploy-github-connection.png" alt="Dokploy GitHub Connection" />
 
 ---
 
@@ -484,7 +486,7 @@ Commit all changes with the message "Initial website build" and push to GitHub.
 
 1. In the Dokploy dashboard, click **Projects** in the sidebar
 
-<img width="50%" src="./images/dokploy-projects.png" alt="Dokploy Projects" />
+<img width="100%" src="./images/dokploy-projects.png" alt="Dokploy Projects" />
 
 2. Click **Create Project** and give it a name (e.g., "My Website")
 3. Inside the project, click **Create Service** > **Application**
@@ -533,7 +535,7 @@ If you have a domain name:
    - Start it up
 3. Once the build is complete, your website is live!
 
-<img width="50%" src="./images/dokploy-deploy-logs.png" alt="Dokploy Deploy Logs" />
+<img width="100%" src="./images/dokploy-deploy-logs.png" alt="Dokploy Deploy Logs" />
 
 ### Auto-Deploy on Push
 
@@ -594,7 +596,7 @@ Google Analytics lets you see how many people visit your website, where they com
 4. Click **Create stream**
 5. Copy the **Measurement ID** — it looks like `G-XXXXXXXXXX`
 
-<img width="50%" src="./images/google-analytics-measurement-id.png" alt="Google Analytics Measurement ID" />
+<img width="100%" src="./images/google-analytics-measurement-id.png" alt="Google Analytics Measurement ID" />
 
 ### Add Google Analytics to Your Website
 
